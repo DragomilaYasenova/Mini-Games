@@ -59,10 +59,8 @@ int main() {
             newWord[i] = word[i];
         }else if (word[i] == ' '){
             newWord[i] = " ";
-            //cout << newWord[i];
         } else {
             newWord[i] = "*";
-            //cout << newWord[i];
         }
         cout << newWord[i];
     }
