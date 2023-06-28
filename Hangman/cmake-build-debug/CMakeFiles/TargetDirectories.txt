@@ -1,3 +1,0 @@
-/Users/dragomila/Desktop/Hangman/cmake-build-debug/CMakeFiles/Hangman.dir
-/Users/dragomila/Desktop/Hangman/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/dragomila/Desktop/Hangman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
