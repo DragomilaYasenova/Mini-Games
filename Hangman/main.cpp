@@ -14,7 +14,7 @@ bool check(string word, char letter, int size);
 bool checkWins(string *word, int size);
 
 /*
-      HANG MAN
+      HANGMAN
    ______________
    |            |
    |            |
