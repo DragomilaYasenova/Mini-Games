@@ -61,27 +61,20 @@ int main() {
     }
 
 
-
     for (int j = 0; j < players; j++){
-
         do {
             cout << "Plater: " << j + 1 << ". Do you want more cards ?" << endl;
             cin >> cardRequest;
             if (cardRequest == 'Y') {
-                //board[i][j] = deck[rand() % 13 + 1];
                 currentCard = deck[rand() % 13 + 1];
                 cout << currentCard << " " << endl;
 
                 sumCards(sumPlayers, currentCard, j);
 
                 cout << "Sum player " << j + 1 << " : " << sumPlayers[j] << " " << endl;
-
             }
         } while (cardRequest != 'N' && sumPlayers[j] <= 21);
-
-
     }
-
 
     cout << endl;
     for (int i = 0; i < players; i++){
@@ -93,19 +86,6 @@ int main() {
             cout << "Player " << i + 1 << " WINS" << endl;
         }
     }
-
-
-
-    //word = guesses[ rand() % guesses->length() ];
-
-    //size = word.length();
-    //string newWord[size];
-
-
-
-
-
-
 
     return 0;
 }
@@ -119,7 +99,7 @@ int* sumCards(int* sumPlayers, const std::string& currentCard, int index) {
     } else {
         sumPlayers[index] += 10;
     }
-
+    
     return sumPlayers;
 }
 
@@ -127,12 +107,10 @@ int largestNum(int* arr, int n){
     int max = arr[0];
 
     for (int i = 1; i < n; i++){
-
         if (arr[i] > max){
             max = arr[i];
         }
     }
-
 
     return max;
 }
