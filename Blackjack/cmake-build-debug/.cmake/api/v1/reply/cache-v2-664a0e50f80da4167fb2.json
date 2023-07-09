@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/dragomila/Desktop/Hangman/cmake-build-debug"
+			"value" : "/Users/dragomila/Desktop/Blackjack/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/dragomila/Desktop/Hangman"
+			"value" : "/Users/dragomila/Desktop/Blackjack"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/dragomila/Desktop/Hangman/cmake-build-debug"
+			"value" : "/Users/dragomila/Desktop/Blackjack/cmake-build-debug"
 		},
 		{
 			"name" : "Hangman_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/dragomila/Desktop/Hangman"
+			"value" : "/Users/dragomila/Desktop/Blackjack"
 		}
 	],
 	"kind" : "cache",

@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/dragomila/Desktop/Hangman/cmake-build-debug/
+cmake_ninja_workdir = /Users/dragomila/Desktop/Blackjack/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Hangman
 
@@ -46,7 +46,7 @@ cmake_ninja_workdir = /Users/dragomila/Desktop/Hangman/cmake-build-debug/
 
 build cmake_object_order_depends_target_Hangman: phony || CMakeFiles/Hangman.dir
 
-build CMakeFiles/Hangman.dir/main.cpp.o: CXX_COMPILER__Hangman_Debug /Users/dragomila/Desktop/Hangman/main.cpp || cmake_object_order_depends_target_Hangman
+build CMakeFiles/Hangman.dir/main.cpp.o: CXX_COMPILER__Hangman_Debug /Users/dragomila/Desktop/Blackjack/main.cpp || cmake_object_order_depends_target_Hangman
   DEP_FILE = CMakeFiles/Hangman.dir/main.cpp.o.d
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.0 -std=gnu++17
   OBJECT_DIR = CMakeFiles/Hangman.dir
@@ -76,7 +76,7 @@ build Hangman: CXX_EXECUTABLE_LINKER__Hangman_Debug CMakeFiles/Hangman.dir/main.
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/dragomila/Desktop/Hangman/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/dragomila/Desktop/Blackjack/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/dragomila/Desktop/Hangman/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/dragomila/Desktop/Hangman -B/Users/dragomila/Desktop/Hangman/cmake-build-debug
+  COMMAND = cd /Users/dragomila/Desktop/Blackjack/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/dragomila/Desktop/Blackjack -B/Users/dragomila/Desktop/Blackjack/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +103,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/dragomila/Desktop/Hangman/cmake-build-debug
+# Folder: /Users/dragomila/Desktop/Blackjack/cmake-build-debug
 
 build all: phony Hangman
 
